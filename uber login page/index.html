@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="left-bar">
+        <img src="images/uberlog.png" id="logoimg" alt="logo">
+        <a href="recent.html" class="lang-link nav-link">Ride</a>
+        <a href="recent.html" class="lang-link nav-link">Drive</a>
+        <a href="recent.html" class="lang-link nav-link">Business</a>
+        <a href="recent.html" class="lang-link nav-link">About</a>
+      </div>
+      <div class="right-bar">
+        <a href="recent.html" class="lang-link nav-link">
+          <img src="images/globe-solid.svg" width="15px" id="globe-solid" alt="globe-solid">
+          <span>EN</span>
+        </a>
+        <a href="recent.html" class="lang-link nav-link">Help</a>
+        <a href="recent.html" class="lang-link nav-link">Log in</a>
+        <a href="recent.html" class="lang-link nav-link" id="signup">Sign up</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="go-anywhere">
+
+      <div class="text-content">
+        <h1 id="heading1">
+          Go anywhere with <br>Uber
+        </h1>
+        <div class="location">
+          <div class="pickup">
+
+            <label for="Pickup"></label>
+            <input type="text" name="Pickup location" id="pickup" placeholder="Pickup location">
+          </div>
+          <div class="dropoff">
+
+            <label for="dropoff"></label>
+            <input type="text" name="Dropoff location" id="dropoff" placeholder="Dropoff location">
+          </div>
+
+        </div>
+        <div class="date-time">
+          <label for="date"> </label>
+          <input type="text" id="date" placeholder="Date" onfocus="(this.type='date')"
+            onblur="if(!this.value)this.type='text'">
+
+          <label for="time"> </label>
+          <input type="text" id="time" placeholder="Time" onfocus="(this.type='time')"
+            onblur="if(!this.value)this.type='text'">
+
+        </div>
+        <div class="redirect-1">
+          <a href="recent.html" id="prices">See prices</a>
+          <a href="recent.html" id="recent">Log in to see recent activity</a>
+        </div>
+      </div>
+      <div class="image-content">
+        <img src="images/3-2-ridesharing-new.webp" alt="3-2-ridesharing-new" id="img-1" width="600px">
+      </div>
+    </div>
+
+    <div class="suggestion">
+      <h2 id="heading2-1">Suggestions</h2>
+
+      <div class="container">
+
+        <div class="box">
+          <div class="text">
+            <h4 class="h4">Ride</h4>
+            <p class="p-1">Go anywhere with Uber. Request a Ride, hop in, and go.</p>
+            <a href="recent.html" class="details">Details</a>
+          </div>
+          <div class="pic">
+            <img src="images/ride.png" alt="Ride" width="128px">
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="text">
+            <h4 class="h4">Reserve</h4>
+            <p class="p-1">Reserve your ride in advance so you can relax on the day of your trip.</p>
+            <a href="recent.html" class="details">Details</a>
+          </div>
+          <div class="pic">
+            <img src="images/reserve_clock.png" alt="Reserve Clock" width="128px">
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="text">
+            <h4 class="h4">Intercity</h4>
+            <p class="p-1">Get convenient, affordable outstation cabs anytime at your door.</p>
+            <a href="recent.html" class="details">Details</a>
+          </div>
+          <div class="pic">
+            <img src="images/intercity.png" alt="Intercity" width="128px">
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="text">
+            <h4 class="h4">Courier</h4>
+            <p class="p-1">Uber makes same-day item delivery easier than ever.</p>
+            <a href="recent.html" class="details">Details</a>
+          </div>
+          <div class="pic">
+            <img src="images/Courier.png" alt="Courier" width="128px">
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="text">
+            <h4 class="h4">Rentals</h4>
+            <p class="p-1">Request a trip for a block of time and make multiple stops.</p>
+            <a href="recent.html" class="details">Details</a>
+          </div>
+          <div class="pic">
+            <img src="images/Hourly2021.png" alt="Hourly Rentals" width="128px">
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="text">
+            <h4 class="h4">Moto</h4>
+            <p class="p-1">Get affordable motorbike rides in minutes at your doorstep.</p>
+            <a href="recent.html" class="details">Details</a>
+          </div>
+          <div class="pic">
+            <img src="images/Uber_Moto_India1.png" alt="Uber Moto" width="128px">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="acc-details">
+      <div class="acc-container-1">
+
+
+        <h2 id="heading2-2">Log in to see your account<br> details </h2>
+        <p class="p-2">View past trips, tailored suggestions, support resources,<br> and more.</p>
+        <div class="redirect-1">
+          <a href="recent.html" id="prices">Log in to your account</a>
+          <a href="recent.html" id="recent">Create an account</a>
+        </div>
+
+
+      </div>
+      <div class="acc-container-2">
+        <img src="images/Signup-roundededge-1.svg" alt="Signup-roundededge-1" width="500px">
+      </div>
+    </div>
+
+    <div>
+      <h2 class="heading-4">Pay for later</h2>
+    </div>
+    <div class="pfl">
+
+      <div class="pfl-container-1">
+        <div id="pfl-c1">
+          <h2>Get your ride right <br>with Uber Reserve</h2>
+          <h3>Choose date and time</h3>
+          <div class="date-time" id="dt2">
+            <label for="date"> </label>
+            <input type="text" id="date2" placeholder="Date" onfocus="(this.type='date')"
+              onblur="if(!this.value)this.type='text'">
+
+            <label for="time"> </label>
+            <input type="text" id="time2" placeholder="Time" onfocus="(this.type='time')"
+              onblur="if(!this.value)this.type='text'">
+          </div>
+          <div class="next-cont"><a href="recent.html" class="next">Next</a></div>
+
+        </div>
+      </div>
+      <div class="pfl-container-2">
+        <h3>Benifits</h3>
+        <ul class="benefits-list">
+          <li>Choose your exact pickup time up <br>to 90 days in advance.</li>
+          <li>Extra time included to meet <br>your ride.</li>
+          <li>Cancel at no charge up to 60 <br>minutes in advance. </li>
+        </ul>
+        <a href="recent.html" id="see-terms">See terms</a>
+      </div>
+
+    </div>
+
+    <div class="section-5">
+      <div class="sec-5-c1">
+        <img src="images/earner-illustra.webp" alt="earner-illustra" width="558px">
+      </div>
+      <div class="sec-5-c2">
+        <h1>Drive when you want, make <br>what you need</h1>
+        <p class="sec-p">Make money on your schedule with deliveries or rides—or <br>both. You can use your own car or
+          choose a rental <br>through Uber.</p>
+        <div class="redirect-1">
+          <a href="recent.html" id="prices">Get started</a>
+          <a href="recent.html" id="recent">Already have an account? Sign in</a>
+        </div>
+      </div>
+    </div>
+    <div class="section-6">
+      <div class="sec-6-c1">
+        <h1>The Uber you know, <br>reimagined for business</h1>
+        <p class="sec-p"> Uber for Business is a platform for managing global rides and <br>meals, and local deliveries,
+          for companies of any size.</p>
+        <div class="redirect-1">
+          <a href="recent.html" id="prices">Get started</a>
+          <a href="recent.html" id="recent">Check out our solutions</a>
+        </div>
+      </div>
+      <div class="sec-6-c2">
+        <img src="images/u4b-square.webp" alt="u4b-square" width="558px">
+      </div>
+    </div>
+    <!-- section7 -->
+    <div class="section-7">
+      <div class="sec-7-c1">
+        <h1>Make money by renting out <br>your car</h1>
+        <p class="sec-p"> Connect with thousands of drivers and earn more per week <br>with Uber’s free fleet management
+          tools.</p>
+        <div class="redirect-1">
+          <a href="recent.html" id="prices">Get started</a>
+          <!-- <a href="recent.html" id="recent">Check out our solutions</a> -->
+        </div>
+      </div>
+      <div class="sec-7-c2">
+        <img src="images/fleet-management.webp" alt="fleet-management" width="558px">
+      </div>
+    </div>
+
+    <h2 class="down-heading">It's easier in the apps</h2>
+    <div class="download-links">
+
+      <a class="down-uber" href="recent.html"> <img src="images/Final-Download-Uber-App.webp"
+          alt="Final-Download-Uber-App" width="150px">
+        <div class="info1">
+          <h3>Download the Uber app</h3>
+          <p>Scan to Download</p>
+        </div>
+        <div class="arrow">
+          <img src="images/arrow-right-solid-full.svg" alt="arrow-right-solid-full" width="25px">
+        </div>
+      </a>
+
+
+      <a class="down-driver" href="recent.html">
+        <img src="images/download-driver-app.webp" alt="download-driver-app" width="150px">
+        <div class="info1">
+          <h3>Download the Uber app</h3>
+          <p>Scan to Download</p>
+        </div>
+        <div class="arrow">
+          <img src="images/arrow-right-solid-full.svg" alt="arrow-right-solid-full" width="25px">
+        </div>
+      </a>
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="f-container"> 
+    <div class="fd1"><a class="f-link" href="recent.html"><img src="images/uberlog.png" alt="uberlog" width="50px"></a>
+    </div>
+    <div class="fd2"><a class="f-link" href="recent.html">Visit help center</a></div>
+    <div class="fd3">
+      <div class="company">
+        <h3 class="f-h3">Company</h3>
+        <ul>
+          <li class="f-list"><a class="f-link-2" href="recent.html">About us</a></li>
+          <li class="f-list"><a class="f-link-2" href="recent.html">Our offerings</a></li>
+          <li class="f-list"><a class="f-link-2" href="recent.html">Newsroom</a></li>
+          <li class="f-list"><a class="f-link-2" href="recent.html">Investors</a></li>
+          <li class="f-list"><a class="f-link-2" href="recent.html">Blog</a></li>
+          <li class="f-list"><a class="f-link-2" href="recent.html">Careers</a></li>
+        </ul>
+      </div>
+      <div class="products">
+        <h3 class="f-h3">Products</h3>
+        <ul>
+          <li class="f-list"><a class="f-link-2" href="recent.html">Ride</a></li>
+          <li class="f-list"><a class="f-link-2" href="recent.html">Drive</a></li>
+          <li class="f-list"><a class="f-link-2" href="recent.html">Eat</a></li>
+          <li class="f-list"><a class="f-link-2" href="recent.html">Uber for Business</a></li>
+          <li class="f-list"><a class="f-link-2" href="recent.html">Uber Freight</a></li>
+          <li class="f-list"><a class="f-link-2" href="recent.html">Gift cards</a></li>
+          <li class="f-list"><a class="f-link-2" href="recent.html">Uber Health</a></li>
+        </ul>
+      </div>
+      <div class="gc">
+        <h3 class="f-h3">Global citizenship</h3>
+        <ul>
+          <li class="f-list"><a class="f-link-2" href="recent.html">Safety</a></li>
+          <li class="f-list"><a class="f-link-2" href="recent.html">Sustainability</a></li>
+        </ul>
+      </div>
+      <div class="travel">
+        <h3 class="f-h3">Travel</h3>
+        <ul>
+          <li class="f-list"><a class="f-link-2" href="recent.html">Reserve</a></li>
+          <li class="f-list"><a class="f-link-2" href="recent.html">Airpots</a></li>
+          <li class="f-list"><a class="f-link-2" href="recent.html">Cities</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="fd4">
+      <div class="fd4-l">
+        <a class="fd4-l-icon" href="recent.html"><img src="social/square-facebook-brands-solid-full.svg" alt="square-facebook-brands-solid-full" width="24px"></a>
+        <a class="fd4-l-icon" href="recent.html"><img src="social/x-twitter-brands-solid-full.svg" alt="x-twitter-brands-solid-full" width="24px"></a>
+        <a class="fd4-l-icon" href="recent.html"><img src="social/youtube-brands-solid-full.svg" alt="youtube-brands-solid-full" width="24px"></a>
+        <a class="fd4-l-icon" href="recent.html"><img src="social/linkedin-brands-solid-full.svg" alt="linkedin-brands-solid-full" width="24px">
+          <a class="fd4-l-icon" href="recent.html"><img src="social/instagram-brands-solid-full.svg" alt="instagram-brands-solid-full" width="24px"></a>
+        </a>
+      </div>
+      <div class="fd4-r">
+        <a class="fd4-r-link" href="recent.html"><img src="social/globe-solid-full.svg" alt="globe-solid" width="24px"><span>ENGLISH</span></a>
+        <a class="fd4-r-link" href="recent.html"><img src="social/location-dot-solid-full.svg" alt="location-dot-solid-full" width="24px"><span>Jaipur</span></a>
+      </div>
+    </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+
+
+
+
+<!-- the clone is complete from my end . there maybe few things in the footer that i didint build but its just because i felt lazy  -->
